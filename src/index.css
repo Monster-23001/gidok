@@ -1,0 +1,671 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Nav-parent {
+  display: flex;
+  justify-content: space-around;
+  padding-inline: 20px;
+  padding-block: 20px;
+  align-items: center;
+}
+.Nav-img {
+  width: 180px;
+  height: 58px;
+}
+.Nav-link {
+  display: flex;
+  gap: 56px;
+}
+.Nav-3 {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 550;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.Nav-sign {
+  padding-inline: 30px;
+  padding-block: 15px;
+  margin: 10px;
+  font-weight: 600;
+  color: #e93740;
+  font-size: 16px;
+  line-height: 14px;
+  align-items: center;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.Post {
+  padding-inline: 30px;
+  padding-block: 15px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #e93740;
+  align-items: center;
+  display: flex;
+  color: white;
+  border: none;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.top-body {
+  background-image: url("../src/assets/NEW PICTURE FOR REACT/young-family-with-kids-travelling-by-car-stopped-field\ 1.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.top-discover {
+  font-weight: 750;
+  font-size: 60px;
+  line-height: 72px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.top-span {
+  color: #e93740;
+}
+.top-3 {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.top-rent {
+  font-weight: 400;
+  size: 42px;
+  line-height: 48px;
+  color: #1c1c1c;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.top-place {
+  background-color: #e93740;
+  border-radius: 120px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  color: white;
+}
+.top-rides {
+  background-color: white;
+  border-radius: 120px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  color: black;
+}
+.top-things {
+  background-color: white;
+  border-radius: 120px;
+  padding-inline: 20px;
+  padding-block: 5px;
+  color: black;
+}
+#for-input {
+  position: relative;
+  margin-top: 15px;
+  padding-inline: 300px;
+  padding-block: 20px;
+  border: 1px;
+  border-radius: 10px;
+  margin-bottom: 350px;
+}
+/* #for-input input{
+
+} */
+
+.category-body {
+  row-gap: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.borders {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.border-1 {
+  background-color: #e93740;
+  width: 83px;
+  height: 6px;
+  border-radius: 5px;
+}
+.border-2 {
+  background-color: #e93740;
+  width: 17px;
+  height: 6px;
+  border-radius: 5px;
+}
+.category-head {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 80px;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  margin-block: 50px;
+  align-items: baseline;
+}
+.category-1 {
+  padding-inline: 10px;
+  border: 2px solid rgb(65, 60, 60);
+  border-radius: 10px;
+  padding-block: 10px;
+  display: flex;
+  column-gap: 15px;
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  align-items: center;
+  font-size: 15px;
+}
+#icon-1 {
+  background-color: hsl(357, 19%, 64%);
+  border: 2px solid #e93740;
+  border-radius: 40px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+#icon-2 {
+  background-color: rgb(132, 168, 132);
+  border: 2px solid #e93740;
+  border-radius: 40px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+#icon-3 {
+  background-color: #a57d9c;
+  border-radius: 40px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+#icon-4 {
+  background-color: #8ea5b9;
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+#icon-5 {
+  background-color: hsl(357, 19%, 64%);
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+.featured {
+  display: flex;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 55px;
+}
+.featured-slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-block: 20px;
+  margin-block: 30px;
+  column-gap: 2px;
+}
+.all {
+  background-color: #e93740;
+  border-radius: 10px;
+  padding-block: 5px;
+  padding-inline: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: white;
+}
+.all1 {
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  padding-block: 5px;
+  padding-inline: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: black;
+}
+#all1 {
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  padding-block: 5px;
+  padding-inline: 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: black;
+}
+.featured-houses {
+  display: flex;
+  column-gap: 25px;
+  justify-content: space-evenly;
+  line-height: 1.5;
+}
+.d-img {
+  width: 450px;
+}
+.f-bed {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.f-month {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 15px;
+  /* padding-block: 10px; */
+}
+.f-span {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #e93740;
+}
+.f-luxury {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 460;
+  font-style: normal;
+  font-size: 24px;
+  color: black;
+  /* padding-block: 10px; */
+}
+.new-b {
+  display: flex;
+  gap: 50px;
+}
+.oyin {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 15px;
+  align-items: center;
+}
+.d {
+  display: flex;
+  gap: 20px;
+}
+.name-1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+#okay {
+  background-color: rgb(226, 221, 221);
+  padding: 10px;
+}
+.loadmore {
+  padding-inline: 30px;
+  padding-block: 7px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #e93740;
+  align-items: center;
+  color: white;
+  border: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+.more {
+  display: flex;
+  justify-content: center;
+}
+.insights-cont {
+  display: flex;
+  height: 418px;
+  background-color: #f4f4f4;
+  justify-content: space-around;
+  padding-block: 75px;
+}
+.ins {
+  font-size: 80px;
+  font-weight: 700;
+}
+.whole-cont {
+  display: flex;
+  text-align: center;
+  gap: 15px;
+}
+.span-cont {
+  display: block;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+.inside-cont {
+  color: white;
+  background-color: rgb(46, 44, 44);
+  display: block;
+  justify-content: center;
+  width: 350px;
+  height: 244px;
+  border-radius: 20px;
+  padding: 70px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+.myimg {
+  display: flex;
+  padding-block: 40px; 
+  column-gap: 30px;
+  height: 500px;
+  justify-content: space-between;
+  margin-inline: 10px;
+}
+.img-card {
+  position: relative;
+
+}
+.card-text {
+  position: absolute;
+  bottom: -100px;
+  left: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+.img-cards {
+  position: relative;
+right: 0%;
+}
+.cimg {
+  display: flex;
+  gap: 20px;
+}
+.sp-img {
+  display: flex;
+ gap: 20px;
+ padding-block: 33px;
+
+}
+.card-texts{
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+.card-textss{
+  position: absolute;
+  top: 220px;
+  right: 290px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+.card-textsss{
+  position: absolute;
+  bottom: -100px;
+  left: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+.card-textssss{
+  position: absolute;
+  bottom: -100px;
+  right: 310px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+.featured-i {
+  display: flex;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 100px;
+}
+.impt {
+  display: flex;
+  gap: 40px;
+  padding-block: 40px;
+  row-gap: 30px;
+  margin-inline: 30px;
+}
+.impt-1 {
+  line-height: 2;
+}
+#imgsrc {
+  height: 600px;
+}
+.impt-11 {
+  color: #e93740;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+.impt-111 {
+  color: black;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+.impt-1111 {
+  color: #8b8b8b;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.impt-2 {
+  display: block;
+  line-height: 2;
+  row-gap: 300px;
+}
+.imp-22 {
+  display: flex;
+  gap: 25px;
+}
+.imp-222 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  color: #e93740;
+}
+.imp-2222 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+}
+.imp-22222 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #8b8b8b;
+}
+.cont-img {
+  display: block;
+}
+.imp-3 {
+  display: flex;
+  gap: 25px;
+  padding-top: 20px;
+}
+.cont-imgs {
+  display: block;
+}
+.imp-4 {
+  display: flex;
+  gap: 25px;
+  padding-block: 20px;
+}
+.imp-5 {
+  display: flex;
+  gap: 25px;
+}
+#imglink {
+  display: block;
+  gap: 20px;
+}
+.cont-filter {
+  display: flex;
+  justify-content: space-around;
+  height: 375px;
+  background-color: #f4f4f4;
+  align-items: baseline;
+  padding-block: 70px;
+}
+.filter-1 {
+  line-height: 3;
+}
+.filter-11 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 32px;
+}
+.filtericon {
+  display: flex;
+  column-gap: 12px;
+  padding-block: 15px;
+}
+#ic {
+  gap: 12px;
+  background-color: #e93740;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.filter-2 {
+  line-height: 1.5;
+}
+.filter2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #e93740;
+}
+.filter22 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.subscribe {
+  line-height: 2;
+}
+#email {
+  position: relative;
+  padding-inline: 40px;
+  padding-block: 15px;
+  border: 1px;
+  border-radius: 10px;
+}
+ /* #email ::placeholder{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+}  */
+.sub{
+  padding-inline: 95px;
+  padding-block: 15px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #e93740;
+  align-items: center;
+  display: flex;
+  color: white;
+  border: none;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
